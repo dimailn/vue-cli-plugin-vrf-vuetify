@@ -1,0 +1,18 @@
+{
+  "name": "vue-cli-plugin-vrf-vuetify",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "escodegen": "^2.0.0",
+    "esprima": "^4.0.1"
+  },
+  "devDependencies": {
+    "recast": "^0.21.5"
+  }
+}
