@@ -9,8 +9,6 @@ const injectAdapter = (text) => {
 
   const {program: {body}} = ast
 
-  console.log(JSON.stringify(body))
-
   const expressionStatement = body.find(({expression}) => expression && expression.type === 'CallExpression' && expression.arguments[0].name === 'Vrf')
 
   if(!expressionStatement) {
