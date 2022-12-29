@@ -65,7 +65,7 @@ const VRF_FILE_PATH = "src/plugins/vrf.js"
 module.exports = (api) => {
   api.extendPackage({
     dependencies: {
-      'vrf-vuetify': "latest"
+      'vrf-vuetify': ">=0.44"
     }
   })
   api.injectImports(VRF_FILE_PATH, "import VrfVuetify from 'vrf-vuetify'")
